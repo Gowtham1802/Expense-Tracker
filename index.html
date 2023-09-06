@@ -18,8 +18,7 @@
     <div class="container1">
       <h3>YOUR BALANCE</h3>
       <h1>
-        "$"
-        "-360.00"
+        $ 360.00
       </h1>
       <div class="income-expense">
         <div class="income">
@@ -39,7 +38,41 @@
              <span class="amt">-$500</span>
              <button>X</button>
           </li>
+          <li class="list-items">
+            Salary
+            <span class="amt">+$1500</span>
+            <button>X</button>
+          </li>
+          <li class="list-items">
+            Food
+            <span class="amt">-$250</span>
+            <button>X</button>
+          </li>
+          <li class="list-items">
+            Rent
+            <span class="amt">+$1000</span>
+            <button>X</button>
+          </li>
         </ul>
+      </div>
+      <div class="transaction">
+        <h3>Add new transaction</h3>
+        <form action="#">
+          <div class="form">
+            <label for="text">Text</label>
+            <input type="text" placeholder="Enter text..." value="">
+          </div>
+          <label for="amount">Type</label>
+          <select name="salary" id="income">
+            <option value="income">Income</option>
+            <option value="expense">Expense</option>
+          </select>
+          <div class="form">
+            <label for="amount">Amount</label>
+            <input type="number" placeholder="Enter amount..." value="0">
+          </div>
+          <button class="btn">Add transaction</button>
+        </form>
       </div>
     </div>
   </div>

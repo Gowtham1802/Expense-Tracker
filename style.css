@@ -1,10 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+html{
+  font-size: 16px;
+}
+
+:root {
+  --var-clr-green: #2ECC71;
+  --var-clr-red: #C0392B;
+  --var-clr-bg: #f7f7f7;
+  --var-clr-input-border: rgb(182, 182, 182);
+  --var-clr-font: #393A57;
+}
+
 body{
-  font-family: 'Libre Franklin', sans-serif;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--var-clr-bg);
   /* font-family: 'Victor Mono', monospace; */
+}
+
+.history-list{
+  list-style: none;
+}
+
+.total-container{
+  width: 25rem;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.container1{
+  display: flex;
+  flex-direction: column;
 }
